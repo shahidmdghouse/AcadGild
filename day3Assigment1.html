@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Day3 Assignment 1</title>
+    <script type="text/javascript">
+      function car(make, model, year)
+        {
+          this.carMake = make;
+          this.carModel = model;
+          this.carYear = year;
+
+          this.alertFunc = function()
+            {
+              alert("Car name is " + this.carMake + " and model name is " + this.carModel + " and the purchase year is " + this.carYear);
+            }
+        }
+
+      var car1 = new car("Audi","A3",2014);
+      var car2 = new car("Lamborghini","Veneno",2012);
+
+      car1.alertFunc();
+      car2.alertFunc()
+
+    </script>
+  </head>
+
+  <body>
+
+  </body>
+
+</html>
