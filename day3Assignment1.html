@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function car(make,model,year)
+        {
+          this.car_make=make;
+          this.car_model=model;
+          this.car_year=year;
+
+          this.print_func = function()
+            {
+              alert("The car name is " +this.car_make+ " and model name is " +this.car_model+ " year is " +this.car_year);
+            }
+        }
+      var car_a=new car("BMW","D",2012);
+      var car_b=new car("swift","B",2008);
+      car_a.print_func();
+      car_b.print_func()
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
